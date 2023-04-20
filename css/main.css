@@ -111,6 +111,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 .header-divider {
@@ -478,7 +479,22 @@ aside {
         justify-content: space-between;
         align-items: flex-start;
     } 
-       
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+    .faq .content-wrapper {
+      justify-content: space-between;
+    }
+
+    .faq-content {
+        flex-basis: 40%;
+    }
+
+    .faq h2 {
+        width: 100%;
+    }
+
   }
   @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
