@@ -456,6 +456,22 @@ input[type=button] {
       max-width: 640px;
       margin: 100px 0;
     }
+
+    h2 {
+      font-size: 2.25em;
+      line-height: 3em;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.875em;
+    }
+
+    p {
+      font-size: 1.125em;
+      line-height: 1.5em;
+    }
+
 /* Header */
 
     header {
@@ -481,6 +497,11 @@ input[type=button] {
     }
 
     /* Hero Area */
+
+    .hero-area h1 {
+      font-size: 3em;
+      line-height: 3em;
+    }
 
     /* Aside */
     aside .content-wrapper {
@@ -536,6 +557,13 @@ input[type=button] {
         margin-bottom: 0;
     }
 
+    footer .contact h4 {
+      font-size: 1.5em;
+    }
+    footer p {
+      line-height: 1.125em;
+    }
+
     footer .copyright {
         width: 100%;
     }   
@@ -578,6 +606,16 @@ input[type=button] {
 
     .faq h2 {
         width: 100%;
+    }
+
+    .faq h4 {
+      font-size: 0.875em;
+      line-height: 0.984375em;
+    }
+
+    .faq p {
+      font-size: 0.875em;
+      line-height: 0.984375em;
     }
 
   }
