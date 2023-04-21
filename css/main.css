@@ -168,6 +168,7 @@ header .content-wrapper {
 header nav {
   font-size: 1.125em;
   font-weight: bold;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
