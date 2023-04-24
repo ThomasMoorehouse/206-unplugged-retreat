@@ -744,9 +744,9 @@ input[type=button] {
       width: 100%;
     } 
 
-    .faq h4 {
+    .faq h4, .faq p {
       font-size: 1.125em;
-      line-height: 1.333;
+      line-height: 1;
     }
 
   }
