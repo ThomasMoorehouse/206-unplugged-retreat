@@ -472,12 +472,12 @@ input[type=button] {
 
     h2 {
       font-size: 2.25em;
-      line-height: 1.2em;
+      line-height: 1.333;
     }
 
     h3 {
       font-size: 1.5em;
-      line-height: 1.2em;
+      line-height: 1.25;
     }
 
 /* Header */
@@ -508,7 +508,7 @@ input[type=button] {
 
     .hero-area h1 {
       font-size: 3em;
-      line-height: 1.2em;
+      line-height: 1;
       margin: 0;
     }
 
@@ -539,8 +539,19 @@ input[type=button] {
     .features .features-item-description {
         width: 62%; 
     }
+    .features h2 {
+      margin-bottom: 20px;
+    }
 
     /* Reviews */
+    .reviews h2 {
+      width: 85%;
+    }
+
+    .reviews h3 {
+      width: 75%;
+      margin: 0;
+    }
     .reviews article {
       display: flex;
       justify-content: space-between;
@@ -560,6 +571,7 @@ input[type=button] {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-direction: row;
     }
 
     footer .contact {
@@ -568,9 +580,16 @@ input[type=button] {
 
     footer .contact h4 {
       font-size: 1.5em;
+      margin-bottom: 40px;
     }
+
+    footer h4 {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+
     footer p {
-      line-height: 1.125em;
+      line-height: 1.285;
     }
 
     footer .copyright {
