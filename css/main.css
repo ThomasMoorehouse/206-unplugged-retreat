@@ -95,6 +95,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  /*line-height: 1.125;*/
   color: #e2e3ed;
   text-align: left;
 }
@@ -120,11 +121,12 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.125em;
+  margin: 20px 0;
 }
  
 p {
 	font-size: 0.875em;
-  line-height: 1.125em;
+  line-height: 1.285;
 }
   
 address {
@@ -167,7 +169,7 @@ header .content-wrapper {
 
 header nav {
   font-size: 1.125em;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   display: flex;
   justify-content: space-around;
@@ -182,6 +184,14 @@ header nav ul {
   width: 100%;
 }
 
+header nav ul li {
+  font-size: 1.125em;
+}
+
+footer {
+  text-align: center;
+  flex-direction: column;
+}
 footer p {
   margin: 0;
 }
@@ -225,7 +235,7 @@ footer .copyright {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  line-height: 2.6875em;
+  line-height: 1.2em;
 }
 
 /* ----- Aside ----- */
@@ -277,7 +287,7 @@ input[type=button] {
 }
 
 .features article {
-  width: 60%;
+  width: 63%;
   margin: 30px 0;
 }
 
@@ -290,6 +300,7 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 /* ----- Reviews ----- */
@@ -303,6 +314,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -460,17 +472,17 @@ input[type=button] {
 
     h2 {
       font-size: 2.25em;
-      line-height: 3em;
+      line-height: 1.2em;
     }
 
     h3 {
       font-size: 1.5em;
-      line-height: 1.875em;
+      line-height: 1.2em;
     }
 
     p {
-      font-size: 1.125em;
-      line-height: 1.5em;
+      /*font-size: 1.125em;*/
+      /*line-height: 1.5em;*/
     }
 
 /* Header */
@@ -501,7 +513,8 @@ input[type=button] {
 
     .hero-area h1 {
       font-size: 3em;
-      line-height: 3em;
+      line-height: 1.2em;
+      margin: 0;
     }
 
     /* Aside */
@@ -629,26 +642,30 @@ input[type=button] {
       max-width: 960px;
     }
 
-    h1 {
-      font-size: 3.75em;
-    }
-
     h2 {
       font-size: 2.25em;
     }
 
     h3, h4 {
       font-size: 1.875em;
+      line-height: 1em;
     }
 
-    p {
+    /*p {
       font-size: 1.125em;
       line-height: 1.5em;
+    }*/
+
+    /*Header */
+
+    header {
+      padding: 15px 0;
     }
 
       /* Hero */
     .hero-area h1 {
-        width: 60%;
+      font-size: 3.75em;
+      width: 60%;
     }
 
     /* Aside */
