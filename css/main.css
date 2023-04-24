@@ -638,21 +638,16 @@ input[type=button] {
     }
 
     .faq-content {
-        flex-basis: 40%;
+        flex-basis: 45%;
     }
 
     .faq h2 {
         width: 100%;
     }
 
-    .faq h4 {
+    .faq h4, .faq p {
       font-size: 0.875em;
-      line-height: 0.984375em;
-    }
-
-    .faq p {
-      font-size: 0.875em;
-      line-height: 0.984375em;
+      line-height: 1.125;
     }
 
   }
