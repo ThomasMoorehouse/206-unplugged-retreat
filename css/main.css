@@ -138,6 +138,31 @@ address {
   margin: 50px 0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+.hero-area {
+  background-image: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
+}
+
+.features {
+  background-image: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
+}
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -224,6 +249,15 @@ footer .copyright {
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
+/* ----- Header ----- */
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 /* ----- Hero Area ----- */
 
 .hero-area {  
@@ -497,6 +531,10 @@ input[type=button] {
       justify-content: space-between;
     }
 
+    header figure {
+      width: 30%;
+    }
+
     header nav {
         width: 20%;
     }
@@ -512,9 +550,14 @@ input[type=button] {
     /* Hero Area */
 
     .hero-area h1 {
+      width: 85%;
       font-size: 3em;
       line-height: 1;
       margin: 0;
+    }
+
+    .hero-area {
+      min-height: 600px;
     }
 
     /* Aside */
@@ -564,6 +607,10 @@ input[type=button] {
     
     .reviews article div {
         width: 49%;         
+    }
+
+    .reviews article figure {
+      width: 49%;
     }
 
     /* Footer */
@@ -683,7 +730,6 @@ input[type=button] {
       /* Hero */
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
     }
 
     /* Aside */
