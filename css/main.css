@@ -168,6 +168,21 @@ figure {
   margin-bottom: 40px;
 }
 
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  background-color: #527158;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+footer i {
+  font-size: 1.3125em;
+}
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -639,7 +654,7 @@ input[type=button] {
         margin: 100px 0;
     }
     
-    .footer-content {
+    footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -662,6 +677,11 @@ input[type=button] {
 
     footer p {
       line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
 
     footer .copyright {
