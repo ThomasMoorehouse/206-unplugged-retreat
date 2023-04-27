@@ -95,7 +95,6 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  /*line-height: 1.125;*/
   color: #e2e3ed;
   text-align: left;
 }
@@ -118,6 +117,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
  
 h3, 
@@ -168,7 +168,7 @@ figure {
 }
 
 .features i {
-	font-size: 3.75em;
+	font-size: 3.75rem;
   margin-bottom: 40px;
 }
 
@@ -668,11 +668,6 @@ input[type=button] {
     footer .contact {
         margin-bottom: 0;
     }
-
-    /*footer .contact h4 {
-      font-size: 1.5em;
-      margin-bottom: 40px;
-    }*/
 
     footer h4 {
       font-size: 1.5em;
