@@ -99,10 +99,14 @@ body {
   color: #e2e3ed;
   text-align: left;
 }
- 
+
+ul {
+  padding: 0;
+}
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
 }
  
 a {
